@@ -1,14 +1,17 @@
 
 public class Cliente {
 
-	private String nome;
+	private Pessoa pessoa;
 
-	public String getNome() {
-		return nome;
+	public Cliente(Pessoa pessoa) {
+		this.pessoa = pessoa;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public Pessoa getPessoa() {
+		return pessoa;
 	}
 
+	public void setPessoa(Pessoa pessoa) {
+		this.pessoa = pessoa;
+	}
 }
